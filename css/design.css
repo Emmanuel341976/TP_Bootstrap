@@ -1,0 +1,9 @@
+/*--------------------------------------------------------------------------------------*/
+/*                                  © Devcodeone                                        */
+/* Ce fichier ne doit contenir que les attributs concernant les polices et les couleurs */
+/*--------------------------------------------------------------------------------------*/
+
+.toto_exemple {
+    color: #eb4034;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

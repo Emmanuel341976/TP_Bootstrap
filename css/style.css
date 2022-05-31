@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------------------------------*/
+/*                                  © Devcodeone                                        */
+/* Ce fichier ne doit contenir que les attributs concernant les overrides bootstrap :    */
+/*                  positionnement, taille ...                                         */
+/*--------------------------------------------------------------------------------------*/
+
+.toto_exemple {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    /* etc ... */
+}
