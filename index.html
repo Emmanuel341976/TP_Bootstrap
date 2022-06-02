@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
     <head>
         <meta charset="UTF-8">
@@ -12,25 +12,202 @@
         <!-- JS -->
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/jquery.js"></script>
+        <script src="/js/scripts.js" defer></script>
         <title>Document</title>
     </head>
 
     <body>
-        <header>
 
-        </header>
-        <nav>
+        <!-- Lateral fixed bar with buger menu -->
 
-        </nav>
-        <aside>
+        <aside class="leftbar">
 
-        </aside>
-        <section>
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">×</a>
+                <ul>
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#">Inscription</a></li>
+                <li><a href="#">Espace Perso</a></li>
+                <li><a href="#">Espace Pro</a></li>
+                </ul>
+            </div>
+    
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </a>
+    
 
-        </section>
-        <footer>
+            <p class="verticaltext">OBTENEZ DES CONSEILS GRATUITS SUR MESURE</p>
 
-        </footer>
+            <img class="heartharrows" src="/img/earth3arrows.png" alt="earth with 3 arrows">
+
+         </aside>
+
+        <!-- Top bar with brand name, navbar serch and links -->
+
+        <div class="container-fluid page">
+
+            <header class="row">
+
+                    
+                    <!-- Hidden col under lateral fixed bar -->
+                    <!-- <div class="col-1">
+
+                    </div> -->
+
+                    <!-- Brand logo -->
+                    <!-- <div class="col-2 BrandName">
+
+                        <h1 class="BoConcept" >BoConcept</h1>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque illo corporis fugit tempore dolorem ducimus odio omnis non at. Optio at corporis nesciunt, commodi saepe, quae quasi molestias nihil sequi tenetur quam rem dolorum itaque, vel unde consequatur? Illo nisi, facere corporis, voluptas cupiditate ipsa ipsum possimus at quos dolores consectetur, aut accusantium maxime nemo dignissimos nihil dolorem. Consequuntur illo quas at, porro, sed eligendi voluptate veniam sunt culpa soluta explicabo ab optio dolorum rem, voluptatibus assumenda ea labore ratione aliquid ipsa! Libero labore delectus ab id non eos vero consequuntur? Suscipit quas eligendi quae cum nesciunt commodi velit incidunt eos doloremque obcaecati eveniet saepe consequatur eius quia autem quos tempore reiciendis alias, iste veniam fuga. Illum eum similique dicta nesciunt iure. Deleniti magni, dignissimos at suscipit iusto cumque voluptatibus vitae, adipisci sed quos labore sint assumenda similique unde consequuntur, perspiciatis molestias maxime tempore? Perferendis neque doloribus aliquam voluptatibus quaerat ipsum sequi minima mollitia molestiae nostrum unde ipsa quasi nulla debitis dolorem illum harum facere est aliquid id, similique officiis! Porro beatae omnis, dolore illo dolores quo sed deleniti assumenda doloremque delectus maiores numquam, odit optio, nostrum quidem tempora accusantium. Dicta sequi amet maxime at neque modi aliquam, exercitationem libero, voluptates sed, perferendis alias quod id iure perspiciatis ullam laborum sit suscipit blanditiis consequuntur natus! Maxime, voluptatum natus, non voluptate animi voluptas ipsa adipisci sequi delectus tempore beatae iusto rem corrupti impedit ab consequuntur iure officia dolore dignissimos molestiae mollitia nam labore assumenda quasi? Tenetur quis aliquid aliquam perferendis maiores amet placeat modi sed tempora neque laboriosam optio nihil eveniet, dicta veritatis delectus? Perspiciatis praesentium voluptas suscipit perferendis blanditiis deleniti quam recusandae fugiat ex reprehenderit. Corrupti unde dignissimos minus nostrum, assumenda ad numquam rerum dolorem eligendi, expedita alias. Inventore amet cumque veritatis. Ratione provident, porro debitis fuga voluptates accusamus impedit atque incidunt distinctio eaque cupiditate amet inventore at consequatur alias veniam! Similique vero sapiente cupiditate repellendus est qui ipsam magni, animi a natus repudiandae vitae ipsa repellat ipsum modi? Voluptates eos quas possimus pariatur fugiat quisquam facilis, maiores unde iusto. Fugit laboriosam corporis temporibus, recusandae cum delectus. Facilis, sed nemo dolores perspiciatis totam enim quasi id nobis quibusdam rerum impedit voluptatem eaque excepturi accusamus aliquid? Nobis fugiat ducimus, ab officiis, perferendis facilis quaerat ex est magni tempora nostrum molestiae? Molestiae unde quis maxime cupiditate eveniet placeat delectus animi modi neque, esse, praesentium laboriosam numquam aut ea sapiente quas pariatur asperiores. </p>
+
+                    </div> -->
+
+                    <!-- Top navbar -->
+                    <!-- <nav class="col-8 navbar navbar-expand-lg navbar-light">
+
+                        <p>kjfgkjqsfkjgfg</p> 
+
+                    </nav> -->
+
+
+
+
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <div class="container-fluid">
+
+                            <a class="navbar-brand" href="#">BoConcept</a>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mb-2 mb-lg-0">
+                                    
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Produits</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">Canapés</a></li>
+                                                <li><a class="dropdown-item" href="#">Fauteuils</a></li>
+                                                <li><hr class="dropdown-divider"></li>
+                                                <li><a class="dropdown-item" href="#">Mobilier d'éxtérieur</a></li>
+                                                <li><a class="dropdown-item" href="#">Lulinaires</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Pièces</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Salon</a></li>
+                                            <li><a class="dropdown-item" href="#">Chambre</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Cuisine</a></li>
+                                            <li><a class="dropdown-item" href="#">Salle de bain</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Inspiration</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">LookBook</a></li>
+                                            <li><a class="dropdown-item" href="#">Meubles disponibles</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Boutique Virtuelle</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Coaching Déco</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Magasin</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Espace Pro</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="magnifying-glass" data-live-search="true" src="/img/magnifying-glass.png" alt="magnifying glass"></a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><input class="Searchinput" type="text"></li>
+                                                
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#"> <img class="heart" src="/img/heart.png" alt="heart"> </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#"> <img class="panier" src="/img/panier.png" alt="panier"> </a>
+                                        </li>
+
+                                    
+                                    </ul>
+                                
+                                </div>
+
+                                <!-- <button><img class="magnifying-glass" data-live-search="true" src="/img/magnifying-glass.png" alt="magnifying glass"></button> -->
+                                
+                               
+                                
+                                   
+
+                        </div>
+                      </nav>
+
+                      <div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item active" aria-current="page">Home</li>
+                            </ol>
+                          </nav>
+                          
+                          <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                          </nav>
+                          
+                          <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item"><a href="#">Library</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Data</li>
+                            </ol>
+                          </nav>
+
+                      </div>
+
+
+
+
+                    <!-- <div class="col-2">
+                        <p>Logos</p>
+                    </div> -->
+
+            </header>
+                    
+                
+                    <section>
+
+                    </section>
+                    <footer>
+
+                    </footer>
+        </div>
     </body>
 
 </html>

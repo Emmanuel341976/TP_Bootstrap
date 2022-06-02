@@ -4,9 +4,21 @@
 /*                  positionnement, taille ...                                         */
 /*--------------------------------------------------------------------------------------*/
 
-.toto_exemple {
-    height: 500px;
-    width: 600px;
-    position: relative;
-    /* etc ... */
+.Searchinput{
+    border: none;
+    box-shadow: none;
+    width: 150px;
+    
+}
+.navbar-brand{
+    padding-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+#navbarSupportedContent{
+    justify-content: right;
+    margin-right: 20px;
 }

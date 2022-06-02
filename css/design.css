@@ -3,7 +3,115 @@
 /* Ce fichier ne doit contenir que les attributs concernant les polices et les couleurs */
 /*--------------------------------------------------------------------------------------*/
 
-.toto_exemple {
-    color: #eb4034;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+    width: 75px;
+    border-style: solid;
+    border-left: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: rgb(202, 202, 202);
+    z-index: 1;
 }
+
+.heartharrows{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+.magnifying-glass{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+    opacity: 30%;
+
+}
+
+.heart{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+    opacity: 30%;
+}
+
+.panier{
+    width: auto;
+    height: 25px;
+    opacity: 30%;
+
+}
+
+.verticaltext{
+    text-align: right;
+    writing-mode: vertical-rl;
+    text-orientation: use-glyph-orientation;
+    transform: rotate(-180deg);
+
+ }
+
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  #openBtn{
+    margin-top: 10px;
+  }
+
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
