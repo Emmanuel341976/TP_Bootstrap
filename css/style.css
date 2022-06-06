@@ -11,7 +11,7 @@
     
 }
 .navbar-brand{
-    padding-left: 75px;
+   
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     font-weight: bolder;
@@ -21,4 +21,176 @@
 #navbarSupportedContent{
     justify-content: right;
     margin-right: 20px;
+}
+
+.navbar{
+    padding-left: 75px;
+}
+
+.dropdown-menu {
+    /* margin-left: 75px; */
+    text-align: center;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.stylistes{
+    padding-top: 2em;
+    width: 50vw;
+    text-align: center;
+    padding-left: 75px;
+
+
+}
+
+.bubblezone{
+   
+    padding-left: 75px;
+}
+
+.spot{
+    background-color: rgb(211, 211, 211);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.spot img{
+   
+    width: 7vw;
+    height: auto;
+
+
+}
+
+.z2img{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.zone2{
+    padding-left: 75px;
+    padding-right: 0px;
+}
+
+.z2txt{
+    background-color: rgb(61, 85, 104);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.divzone2{
+    margin: 0px;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.titlecard{
+    text-align: center;
+    padding-top: 2em;
+}
+.cartes{
+    justify-content: center;
+}
+.stylistes p {
+    padding-top: 1em;
+}
+
+.location {
+    padding-left: 75px;
+}
+
+.extra{
+    text-align: center;
+    padding-left: 75px;
+}
+
+.pratique{
+    padding: 0 0 0 75px ;
+}
+
+.z3txt{
+    background-color: rgb(155, 157, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divpratique{
+    margin: 0px;
+}
+
+.td1, .td2{
+    padding: 0 15px 15px 15px;
+}
+.Pratiquetable{
+    margin: 30px 0 30px 0;
+}
+
+
+.td1, .td3{
+    vertical-align: top;
+    text-align: center;
+    border-collapse: collapse;
+    border-right: 2px solid black;
+}
+
+.td4{
+    padding-left: 15px;
+}
+
+.td4 p{
+    margin-bottom: 0px;
+}
+
+.td2{
+    vertical-align: top;
+    
+}
+
+.z3img{
+    padding: 0px;
+}
+
+.Bofooter{
+    margin-left: 75px;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: rgb(233, 234, 236);
+}
+
+.footernav{
+   justify-content: center;
+
+}
+
+.Bofooter a{
+    color: black;
+    font-size: 0.7em;
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    margin: 30px 15px 30px 15px;
+    height: 30px;
+    opacity: 0.4;
 }

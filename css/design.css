@@ -44,7 +44,14 @@
 .panier{
     width: auto;
     height: 25px;
+    margin-right: 20px;
     opacity: 30%;
+
+}
+
+.minusimg{
+  height: 1em;
+  width: auto;
 
 }
 
