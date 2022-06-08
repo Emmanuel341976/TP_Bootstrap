@@ -166,6 +166,20 @@
     padding: 0px;
 }
 
+.projetssection{
+padding-left: 75px;
+}
+
+.projetszone{
+    margin-left: 0px;
+    background-color: rgb(241, 241, 241);
+}
+
+.z4img{
+    
+    padding: 0px 6em 0 6em;
+}
+
 .Bofooter{
     margin-left: 75px;
     margin-top: 50px;
@@ -193,4 +207,29 @@
     margin: 30px 15px 30px 15px;
     height: 30px;
     opacity: 0.4;
+}
+
+.french{
+    display: flex;
+    justify-content: center;
+}
+
+.french img{
+    margin: 30px 15px 30px 15px;
+    height: 30px;
+}
+
+.mpayement{
+    display: flex;
+    justify-content: center;
+}
+
+.mentions{
+    text-align: center;
+}
+
+
+.mpayement img{
+    margin: 30px 15px 30px 15px;
+    height: 30px;
 }
