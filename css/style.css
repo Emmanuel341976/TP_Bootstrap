@@ -230,6 +230,51 @@ padding-left: 75px;
 
 
 .mpayement img{
+
     margin: 30px 15px 30px 15px;
     height: 30px;
+}
+
+.float1projets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    padding: 1.5em;
+    width: 20vw;
+    height: 20vw;
+    left: 10vw;
+    background-color: rgb(73, 82, 92);
+    position: absolute;
+}
+
+.float2projets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    width: 20vw;
+    height: 25vW;
+    background-color: rgb(250, 250, 250);
+    left: 30vw;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .float1projets{
+    
+        width: auto;
+        height: auto;
+        position: static;
+    }
+    
+    .float2projets{
+       
+        width: auto;
+        height: auto; 
+        left: 0;
+        position: static;
+    }
 }
