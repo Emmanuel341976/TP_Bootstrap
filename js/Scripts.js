@@ -1,3 +1,5 @@
+// side navmenu
+
 var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
 var closeBtn = document.getElementById("closeBtn");
@@ -16,7 +18,11 @@ function closeNav() {
 }
 
 
-function update() {
+
+// Function to modify title ine vertical left bar when user scroll page
+ 
+function update()
+{
   
   const elem1 = document.getElementById("stylistes");
   const rect1 = elem1.getBoundingClientRect();
@@ -30,22 +36,20 @@ function update() {
   let toprect3 = rect3.top;
   let hauteur = window.innerHeight;
 
-  if (toprect1 >= 0 && toprect1 < hauteur)
-    {
-      document.getElementById("verticaltext").innerHTML = "OBTENEZ DES CONSEILS GRATUITS SUR MESURE";
-    }
+    if (toprect1 >= 0 && toprect1 < hauteur)
+        {
+          document.getElementById("verticaltext").innerHTML = "OBTENEZ DES CONSEILS GRATUITS SUR MESURE";
+        }
 
-  if (toprect2 >= 0 && toprect2 < hauteur)
-  {
-    document.getElementById("verticaltext").innerHTML = "VOTRE MAISON EST EXTRAORDINAIRE";
-  }
+    if (toprect2 >= 0 && toprect2 < hauteur)
+        {
+          document.getElementById("verticaltext").innerHTML = "VOTRE MAISON EST EXTRAORDINAIRE";
+        }
 
-  if (toprect3 >= 0 && toprect3 < hauteur)
-    {
-      document.getElementById("verticaltext").innerHTML = "PARLONS ENSEMBLE DE VOS PROJETS";
-    }
-
-  
+    if (toprect3 >= 0 && toprect3 < hauteur)
+        {
+          document.getElementById("verticaltext").innerHTML = "PARLONS ENSEMBLE DE VOS PROJETS";
+        }
 }
 
 document.addEventListener('scroll', update);
